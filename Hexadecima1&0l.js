@@ -5,10 +5,10 @@ function Hexadecimal(n){
     {
         //if((n>>i)&&0x01==0x01)
      if(((n>>i)&& 0x01)==0x01){
-a.push(1);
+a.unshift(1);
     }
     else{
-        a.push(0);
+        a.unshift(0);
     }
 
 
@@ -16,4 +16,4 @@ a.push(1);
 console.log(a)
 
 }
-Hexadecimal(66)
+Hexadecimal(02)
